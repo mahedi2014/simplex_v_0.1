@@ -1,7 +1,7 @@
 /vendor/*
 
 .idea/*
-src/Config.php
+!src/Config.php
 public/uploads/*
 logs/*
 
