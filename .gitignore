@@ -6,3 +6,4 @@ composer.lock
 src/DBClass.php
 public/uploads/*
 logs/*
+desktop.ini
