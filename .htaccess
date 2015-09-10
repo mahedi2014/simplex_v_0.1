@@ -1,0 +1,7 @@
+RewriteEngine On
+
+#error index rediect
+errorDocument 400 http://localhost
+errorDocument 401 http://localhost
+errorDocument 404 http://localhost
+errorDocument 500 http://localhost

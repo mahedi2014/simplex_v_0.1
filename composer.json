@@ -1,0 +1,13 @@
+{
+    "name": "Micro Ajax Framework",
+    "require": {
+        "monolog/monolog": "1.*",        
+        "respect/validation": "dev-master",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}

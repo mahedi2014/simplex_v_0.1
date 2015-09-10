@@ -1,0 +1,6 @@
+/vendor/*
+
+.idea/*
+src/DBClass.php
+public/uploads/*
+logs/*
