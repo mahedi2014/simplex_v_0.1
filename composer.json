@@ -1,8 +1,11 @@
 {
-    "name": "Micro Ajax Framework",
+    "name": "Simplex",
     "require": {
-        "monolog/monolog": "1.*",        
-        "respect/validation": "dev-master",
+        "monolog/monolog": "1.*",
+        "slim/slim": "2.*",
+        "slim/views": "0.*",
+        "twig/twig": "1.*",
+        "mandrill/mandrill": "1.0.*",
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {

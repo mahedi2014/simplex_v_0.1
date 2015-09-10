@@ -1,5 +1,7 @@
 /vendor/*
 
+composer.lock
+
 .idea/*
 src/DBClass.php
 public/uploads/*
