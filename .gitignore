@@ -1,9 +1,9 @@
 /vendor/*
 
-composer.lock
-
 .idea/*
-src/DBClass.php
+src/Config.php
 public/uploads/*
 logs/*
+
+composer.lock
 desktop.ini
