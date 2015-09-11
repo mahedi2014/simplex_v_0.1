@@ -1,16 +1,27 @@
 {
     "name": "Simplex",
+    "type": "library",
+    "description": "Simple framework",
+    "keywords": ["simplex","rest","router"],
+    "homepage": "http://mahediazad.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahedi Azad",
+            "email": "mahedi2014@gmail.com",
+            "homepage": "http://mahediazad.me"
+        }
+    ],
     "require": {
-        "monolog/monolog": "1.*",
-        "slim/slim": "2.*",
-        "slim/views": "0.*",
-        "twig/twig": "1.*",
-        "mandrill/mandrill": "1.0.*",
-        "phpunit/phpunit": "3.7.*"
+        "php": ">=5.3.0"
+    },
+    "suggest": {
+        "ext-mcrypt": "Required for HTTP cookie encryption"
     },
     "autoload": {
         "psr-0": {
-            "": "src/"
-        }
+			"Slim": ".",
+			"": "src/"
+	    }
     }
 }
